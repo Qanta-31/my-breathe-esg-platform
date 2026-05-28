@@ -7,7 +7,7 @@ function App() {
 
   // 1. Fetch the data from your Django backend
   const fetchRecords = () => {
-    axios.get('http://127.0.0.1:8000/api/records/')
+    axios.get('https://breathe-esg-platform-oe2e.onrender.com/api/records/')
       .then(response => {
         setRecords(response.data)
         setLoading(false)
@@ -26,7 +26,7 @@ function App() {
   // 2. The Approval Engine (Updates the database)
   const handleApprove = (id) => {
     // We send a PATCH request to change the status to APPROVED and mark it as edited by an analyst
-    axios.patch(`http://127.0.0.1:8000/api/records/${id}/`, { 
+    axios.patch(`https://breathe-esg-platform-oe2e.onrender.com/api/records/${id}/`, {
       status: 'APPROVED', 
       is_edited: true 
     })
