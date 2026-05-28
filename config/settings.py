@@ -1,3 +1,4 @@
+import os
 """
 Django settings for config project.
 
@@ -20,10 +21,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure--qx(%otofcc3p37lxp9^a7q0o796v3d-qtf1n4m3hr4v+8*on$'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-default-key-for-local-testing')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('RENDER', False) == False
 
 ALLOWED_HOSTS = ['*']
 
