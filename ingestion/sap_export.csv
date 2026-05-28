@@ -1,0 +1,5 @@
+PlantID,Material,Buchungsdatum,Quantity,Einheit,CostCenter
+P001,Diesel Fuel,01.05.2023,500.50,Liters,CC-992
+P002,Jet Fuel,12.05.2023,1200,Liters,CC-104
+P001,Natural Gas,15.05.2023,N/A,m3,CC-992
+P003,Coal,20.05.2023,4000.00,kg,CC-881

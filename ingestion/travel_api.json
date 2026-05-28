@@ -1,0 +1,23 @@
+{
+    "trips": [
+        {
+            "trip_id": "T-100",
+            "category": "Flight",
+            "route": "JFK-LHR",
+            "distance_km": 5554
+        },
+        {
+            "trip_id": "T-101",
+            "category": "Flight",
+            "route": "LHR-CDG",
+            "distance_km": null,
+            "notes": "Distance missing from API"
+        },
+        {
+            "trip_id": "T-102",
+            "category": "Hotel",
+            "nights": 3,
+            "location": "Paris"
+        }
+    ]
+}
