@@ -1,10 +1,10 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import TenantViewSet, EmissionRecordViewSet
+from .views import TenantViewSet, IngestionBatchViewSet, EmissionRecordViewSet
 
-# This router automatically creates all the standard API URLs for us
 router = DefaultRouter()
 router.register(r'tenants', TenantViewSet)
+router.register(r'batches', IngestionBatchViewSet)
 router.register(r'records', EmissionRecordViewSet)
 
 urlpatterns = [

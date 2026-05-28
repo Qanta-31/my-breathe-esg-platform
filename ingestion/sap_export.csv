@@ -1,5 +1,11 @@
-PlantID,Material,Buchungsdatum,Quantity,Einheit,CostCenter
-P001,Diesel Fuel,01.05.2023,500.50,Liters,CC-992
-P002,Jet Fuel,12.05.2023,1200,Liters,CC-104
-P001,Natural Gas,15.05.2023,N/A,m3,CC-992
-P003,Coal,20.05.2023,4000.00,kg,CC-881
+PlantID,Material,Buchungsdatum,Quantity,Einheit,CostCenter,PO_Number,Vendor
+P001,Diesel Fuel,01.05.2023,500.50,Liters,CC-992,4500012345,Shell Deutschland GmbH
+P001,Diesel Fuel,15.05.2023,480.00,Liters,CC-992,4500012346,Shell Deutschland GmbH
+P002,Jet Fuel (Kerosene),12.05.2023,1200,Liters,CC-104,4500012400,BP Aviation
+P001,Natural Gas,15.05.2023,N/A,m3,CC-992,4500012500,Stadtwerke München
+P003,Coal (Anthracite),20.05.2023,4000.00,kg,CC-881,4500012600,RWE Supply
+P002,LPG,22.05.2023,350,Liters,CC-104,4500012700,Linde Gas
+P004,Office Paper (Recycled),25.05.2023,200,kg,CC-200,4500013000,Papier Union
+P004,Printer Toner Cartridges,28.05.2023,15,Stück,CC-200,4500013100,Xerox GmbH
+P001,Hydraulic Oil,30.05.2023,75.5,Liters,CC-992,4500013200,Fuchs Petrolub
+P003,Diesel Fuel,31.05.2023,,Liters,CC-881,4500013300,Aral AG

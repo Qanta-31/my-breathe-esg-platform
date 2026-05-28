@@ -1,4 +1,8 @@
-Meter_ID,Billing_Period,Usage,Unit,Tariff_Code
-MTR-991,April 2023,1500,kWh,TRF-A
-MTR-992,April 2023,2.5,MWh,TRF-B
-MTR-991,May 2023,1450,kWh,TRF-A
+Meter_ID,Billing_Period,Start_Date,End_Date,Usage,Unit,Tariff_Code,Facility
+MTR-991,April 2023,2023-03-15,2023-04-14,1500,kWh,TRF-A,HQ Building A
+MTR-991,May 2023,2023-04-15,2023-05-14,1450,kWh,TRF-A,HQ Building A
+MTR-992,April 2023,2023-03-20,2023-04-19,2.5,MWh,TRF-B,Warehouse North
+MTR-992,May 2023,2023-04-20,2023-05-19,2.8,MWh,TRF-B,Warehouse North
+MTR-993,April 2023,2023-04-01,2023-04-30,0,kWh,TRF-C,Vacant Unit 7
+MTR-994,Q1 2023,2023-01-01,2023-03-31,45000,kWh,TRF-D,Data Center
+MTR-995,May 2023,2023-04-22,2023-05-21,890,kWh,TRF-A,Branch Office South

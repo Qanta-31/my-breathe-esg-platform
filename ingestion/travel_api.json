@@ -1,23 +1,88 @@
 {
     "trips": [
         {
-            "trip_id": "T-100",
+            "trip_id": "T-2023-100",
+            "employee_id": "EMP-442",
             "category": "Flight",
             "route": "JFK-LHR",
-            "distance_km": 5554
+            "cabin_class": "Economy",
+            "distance_km": 5554,
+            "departure_date": "2023-05-02",
+            "return_date": "2023-05-02",
+            "cost_center": "CC-104"
         },
         {
-            "trip_id": "T-101",
+            "trip_id": "T-2023-101",
+            "employee_id": "EMP-442",
             "category": "Flight",
             "route": "LHR-CDG",
+            "cabin_class": "Business",
             "distance_km": null,
-            "notes": "Distance missing from API"
+            "departure_date": "2023-05-03",
+            "return_date": "2023-05-03",
+            "notes": "Short-haul connector — distance not provided by booking system"
         },
         {
-            "trip_id": "T-102",
+            "trip_id": "T-2023-102",
+            "employee_id": "EMP-442",
             "category": "Hotel",
             "nights": 3,
-            "location": "Paris"
+            "location": "Paris, France",
+            "hotel_chain": "Accor",
+            "departure_date": "2023-05-03",
+            "return_date": "2023-05-06",
+            "cost_center": "CC-104"
+        },
+        {
+            "trip_id": "T-2023-103",
+            "employee_id": "EMP-442",
+            "category": "Ground",
+            "mode": "Taxi",
+            "route": "CDG Airport - Hotel",
+            "distance_km": 32,
+            "departure_date": "2023-05-03"
+        },
+        {
+            "trip_id": "T-2023-104",
+            "employee_id": "EMP-118",
+            "category": "Flight",
+            "route": "SFO-NRT",
+            "cabin_class": "Business",
+            "distance_km": 8280,
+            "departure_date": "2023-05-10",
+            "return_date": "2023-05-10",
+            "cost_center": "CC-200"
+        },
+        {
+            "trip_id": "T-2023-105",
+            "employee_id": "EMP-118",
+            "category": "Hotel",
+            "nights": 5,
+            "location": "Tokyo, Japan",
+            "hotel_chain": "Marriott",
+            "departure_date": "2023-05-10",
+            "return_date": "2023-05-15",
+            "cost_center": "CC-200"
+        },
+        {
+            "trip_id": "T-2023-106",
+            "employee_id": "EMP-118",
+            "category": "Rail",
+            "route": "Tokyo Station - Osaka Station",
+            "distance_km": 515,
+            "departure_date": "2023-05-12",
+            "mode": "Shinkansen"
+        },
+        {
+            "trip_id": "T-2023-107",
+            "employee_id": "EMP-305",
+            "category": "Flight",
+            "route": "BOM-DEL",
+            "cabin_class": "Economy",
+            "distance_km": 1148,
+            "departure_date": "2023-05-18",
+            "return_date": "2023-05-18",
+            "cost_center": "CC-881"
         }
     ]
 }
